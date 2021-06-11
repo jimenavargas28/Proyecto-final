@@ -1,23 +1,23 @@
     header {
-        background-color: lightblue;
+        background-color: lightskyblue;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         max-width: 1280px;
-        padding: 5px;
-
-    
+        color: white;
     }
-
     .menu {
-
-        background-color: lightsalmon;
-        text-align: center;
-        font-size: medium;
+        background-color: lightseagreen;
+        border-radius: 5px;
+        border: 50px lightseagreen;
     }
-    
     body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 20px;
         max-width: 1280px;
+        text-align: justify;
+    }
+    .perfil{
+        float: left;
+        padding: 5px;
     }
     footer {
         background-color: lightblue;
@@ -27,17 +27,15 @@
         font-size: 20px;
         max-width: 1280px;
     }
-
     .miDiv1 {
 
-        border: 2px outset blue;
-        background-color: lightgreen;
+        border: 2px outset lightsteelblue;
+        background-color: lightsteelblue;
         text-align: left;
     }
     .miDiv2 {
-
-        border: 2px outset red;
-        background-color: lightpink;
+        border: 2px outset lightslategray;
+        background-color: lightslategray;
         text-align: left;
     }
 
