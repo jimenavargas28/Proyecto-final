@@ -1,8 +1,17 @@
-    head {
+    header {
         background-color: lightblue;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         max-width: 1280px;
+        padding: 5px;
+
     
+    }
+
+    .menu {
+
+        background-color: lightsalmon;
+        text-align: center;
+        font-size: medium;
     }
     
     body {
@@ -18,4 +27,17 @@
         font-size: 20px;
         max-width: 1280px;
     }
-    
+
+    .miDiv1 {
+
+        border: 2px outset blue;
+        background-color: lightgreen;
+        text-align: left;
+    }
+    .miDiv2 {
+
+        border: 2px outset red;
+        background-color: lightpink;
+        text-align: left;
+    }
+
