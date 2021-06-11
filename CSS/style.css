@@ -17,7 +17,7 @@
     }
     .perfil{
         float: left;
-        padding: 5px;
+        padding: 10px;
     }
     footer {
         background-color: lightblue;
@@ -38,4 +38,23 @@
         background-color: lightslategray;
         text-align: left;
     }
+    .Hobbies{
+        background-color: lightseagreen;
+        border-radius: 5px;
+        border: 40px white;
+        padding: 10px;
+    }
+    .Mascotas{
+        background-color: lightseagreen;
+        border-radius: 5px;
+        border: 50px white;
+        padding: 10px;
+    }
+    .Paseos {
+        background-color: lightseagreen;
+        border-radius: 5px;
+        border: 50px white;
+        padding: 10px;
+    }
+    
 
