@@ -10,7 +10,7 @@
         border: 50px lightseagreen;
     }
     body {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Verdana;
         font-size: 20px;
         max-width: 1280px;
         text-align: justify;
@@ -22,9 +22,9 @@
     footer {
         background-color: lightblue;
         color: white;
-        text-align: center;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 20px;
+        text-align: left;
+        font-family:Verdana;
+        font-size: small;
         max-width: 1280px;
     }
     .miDiv1 {
@@ -38,12 +38,13 @@
         background-color: lightslategray;
         text-align: left;
     }
-    .Hobbies{
+    button {
         background-color: lightseagreen;
         border-radius: 5px;
         border: 40px white;
         padding: 10px;
     }
+    
     .Mascotas{
         background-color: lightseagreen;
         border-radius: 5px;
@@ -56,5 +57,15 @@
         border: 50px white;
         padding: 10px;
     }
+    img.a {
+        width: 300px;
+        height: 225px;
+        object-fit: cover;
+      }
+    img.b {
+        border-radius: 20px;
+        padding: 10px;
+    }
+
     
 

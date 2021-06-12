@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <h1><img id="logo" src="./images/logo/logo.jpg" width="300">Introducci&oacute;n al Desarrollo Web</h1>
+        <h1><img class="b" id="logo" src="./images/logo/logo.jpg" width="300">Introducci&oacute;n al Desarrollo Web</h1>
     <p class="menu"> 
         <a href = "proyecto final.html"> Inicio | </a>
         <a href = "biografia.html"> Biograf&iacute;a | </a>
@@ -21,28 +21,41 @@
     <img id="banner" src="./images/banner/banner.jpg" width="1280px">
     </header>
     
-    <p>
-    <a class= "Hobbies" href = "#"> Hobbies</a>
-    
-    <a class= "Mascotas" href = "#"> Mascotas</a>
-    
-    <a class= "Paseos" href = "#"> Paseos </a>
-    
+    <button onclick="toggleHobbies()"> Hobbies</button>
+    <button onclick="toggleMascotas()"> Mascotas</button>
+    <button onclick="togglePaseos()"> Paseos</button>
 
-    </p>
-    <img id="hobbie1" src="./images/hobbies/hobbiefinal1.jpg" width="300">
-    <img id="hobbie2" src="./images/hobbies/hobbiefinal2.jpg" width="300">
-    <img id="hobbie3" src="./images/hobbies/hobbiefinal3.jpg" width="300">
-    <img id="hobbie4" src="./images/hobbies/hobbiefinal5.jpg" width="300">
+    <table  id="galerias">
+        <tr id="hobbies_galeria">
+            <th> <img class= "a" id="hobbie1" src="./images/hobbies/hobbiefinal1.jpg" ></th>
+            <th> <img class= "a" id="hobbie2" src="./images/hobbies/hobbiefinal2.jpg" ></th>
+            <th> <img class= "a" id="hobbie3" src="./images/hobbies/hobbiefinal3.jpg" ></th>
+            <th> <img class= "a" id="hobbie4" src="./images/hobbies/hobbiefinal5.jpg" ></th>
+        </tr>
+        <tr id="mascotas_galeria" hidden>
+            <th> <img class= "a" id="mascota1" src="./images/mascotas/mascotasfinal1.jpg" ></th>
+            <th> <img class= "a" id="mascota2" src="./images/mascotas/mascotafinal2.jpg" ></th>
+            <th> <img class= "a" id="mascota3" src="./images/mascotas/mascotafinal3.jpg" ></th>
+            <th> <img class= "a" id="mascota4" src="./images/mascotas/mascotafinal5.jpg" ></th>
+        </tr> 
+        <tr id="paseos_galeria" hidden>
+            <th> <img class= "a" id="paseos1" src="./images/paseos/paisajefinal1.jpg" ></th>
+            <th> <img class= "a" id="paseos2" src="./images/paseos/paisajefinal2.jpg" ></th>
+            <th> <img class= "a" id="paseos3" src="./images/paseos/paisajefinal3.jpg" ></th>
+            <th> <img class= "a" id="paseo4" src="./images/paseos/paisajefinal1.jpg" ></th>
+        </tr>
 
-    <img id="mascota1" src="./images/mascotas/mascotasfinal1.jpg" width="300">
-    <img id="mascota2" src="./images/mascotas/mascotafinal2.jpg" width="300">
-    <img id="mascota3" src="./images/mascotas/mascotafinal3.jpg" width="300">
-    <img id="mascota4" src="./images/mascotas/mascotafinal5.jpg" width="300">
+    </table>
 
-    <img id="paseos1" src="./images/paseos/paisajefinal1.jpg" width="300">
-    <img id="paseos2" src="./images/paseos/paisajefinal2.jpg" width="300">
-    <img id="paseos3" src="./images/paseos/paisajefinal3.jpg" width="300">
+
+    
+   
+    
+   
+    
+   
+
+    
 
 </body>
 <footer>
