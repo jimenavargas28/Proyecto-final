@@ -21,7 +21,7 @@
     }
     footer {
         background-color: lightblue;
-        color: white;
+        color:blue;
         text-align: left;
         font-family:Verdana;
         font-size: small;
@@ -44,19 +44,7 @@
         border: 40px white;
         padding: 10px;
     }
-    
-    .Mascotas{
-        background-color: lightseagreen;
-        border-radius: 5px;
-        border: 50px white;
-        padding: 10px;
-    }
-    .Paseos {
-        background-color: lightseagreen;
-        border-radius: 5px;
-        border: 50px white;
-        padding: 10px;
-    }
+
     img.a {
         width: 300px;
         height: 225px;
