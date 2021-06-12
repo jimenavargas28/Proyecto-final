@@ -32,11 +32,14 @@
         border: 2px outset lightsteelblue;
         background-color: lightsteelblue;
         text-align: left;
+        width: 400px;
     }
     .miDiv2 {
         border: 2px outset lightslategray;
         background-color: lightslategray;
         text-align: left;
+        width: 400px;
+        display: inline-block;
     }
     button {
         background-color: lightseagreen;
@@ -44,7 +47,6 @@
         border: 40px white;
         padding: 10px;
     }
-
     img.a {
         width: 300px;
         height: 225px;
