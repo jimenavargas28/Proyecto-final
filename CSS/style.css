@@ -28,17 +28,19 @@
         max-width: 1280px;
     }
     .miDiv1 {
-
         border: 2px outset lightsteelblue;
         background-color: lightsteelblue;
         text-align: left;
-        width: 400px;
+        width: 450px;
+        height: 300px;
+        display: inline-block;
     }
     .miDiv2 {
         border: 2px outset lightslategray;
         background-color: lightslategray;
         text-align: left;
-        width: 400px;
+        width: 450px;
+        height: 300px;
         display: inline-block;
     }
     button {
